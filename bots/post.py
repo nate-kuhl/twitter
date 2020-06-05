@@ -12,7 +12,7 @@ import re
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-TWEET_PATH = 'data/bch_quotes.txt'
+TWEET_PATH = '/data/bch_quotes.txt'
 CHARACTER_LIMIT = 280
 
 def filter_curated_tweets(tweet):

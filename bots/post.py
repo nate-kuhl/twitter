@@ -37,7 +37,7 @@ def main():
             logger.info("published message")
         except TweepError as err:
             logger.info(f"Soft fail -- TweepError: {err}")
-        time.sleep(60)
+        time.sleep(14400)
 
 if __name__ == "__main__":
     main()
